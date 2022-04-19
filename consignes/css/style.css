@@ -1,0 +1,167 @@
+/*********** Import Google fonts **********/
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&family=M+PLUS+1+Code:wght@500&family=Montserrat:wght@200&family=Shadows+Into+Light&family=Texturina:wght@100&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+/***************************** HEADER **************************************/
+
+/******* Menu superposé fixé *******/
+.menu{
+    position:fixed;
+    width:100%;
+    height:70px;
+    background-color: rgba(0, 0, 0, .5);
+    padding-left: 250px;
+}
+
+.menu ul{
+    list-style-type: none;
+    text-align: center;
+    margin:auto;
+}
+
+.menu ul li a{
+    color:white;
+    text-align: center;
+    width: 150px;
+    text-decoration:none;
+    float:left;
+    text-transform: uppercase;
+    margin:15px;
+}
+
+.menu ul li a:hover{
+    border: 5px solid white;
+    background-color: white;
+    color: #1C5F81;
+}
+
+.menu ul .billet a{
+    background-color: #1C5F81;
+    height:22px;
+    width:160px;
+    text-align: center;
+    margin:15px;
+    padding: 5px;
+}
+
+.accueil img{
+    width: 100%;
+}
+
+/*************** Images superposés *************/
+.logo1 img{
+    position: absolute;
+    top: 183px;
+    width: 1000px;
+    left: 500px;
+}
+
+.logo2 img{
+    position: absolute;
+    width: 400px;
+    right: 0px;
+    top: 1040px;
+}
+/******************************* FIN DU HEADER ***************************/
+
+/******************************* MAIN ***************************/
+
+/**************** SECTION NEWSLETTER *****************/
+
+.newsletter img:hover{
+    z-index: 2;
+    transform: scale(1.15);
+    box-shadow: 0 0 10px black;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size: 50px;
+}
+
+.newsletter{
+    text-align: center;
+    width:39%;
+    margin:auto;
+}
+
+.intro{
+    text-align:left;
+}
+
+.rdv h2 p{
+    font-weight:bold;
+    line-height: .8em;
+    text-transform: uppercase;
+}
+
+button{
+    text-transform: uppercase;
+    background-color:#1C5F81 ;
+    color: white;
+    height:50px;
+    width: 200px;
+}
+
+/**************** PLUS D'INFOS ****************/
+.moreInfos{
+    display:inline-block;
+    width:60%;
+    margin: auto 400px;
+}
+
+.tarifs-horaires,.HowToGo{
+    float:left;
+    width:42%;
+    margin: 20px 25px;
+}
+
+hr{
+    width:100%;
+}
+
+/*************** PARTENAIRES *****************/
+.partenaires{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.partenaires img{
+    display:flex;
+    height:65px;
+    margin:30px;
+    padding:20px;
+}
+/******************************* FIN DU MAIN ***************************/
+
+/********************************* FOOTER ********************************/
+
+/******* Menu *******/
+footer{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+}
+
+.menuFin{
+    margin: auto 0;
+}
+
+.menuFin,footer img{
+    display:flex;
+}
+
+.menuFin ul li a{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+/********************************* FIN DU FOOTER ********************************/
